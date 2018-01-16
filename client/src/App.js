@@ -211,6 +211,7 @@ class Main extends Component
     hideModal1(e)
   {
     document.getElementById('id01').style.display = "none";
+    document.getElementById("modalcontent").children[0].innerHTMl = "";
   }
   
   render()
